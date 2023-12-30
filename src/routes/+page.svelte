@@ -16,7 +16,7 @@
 <div>
   <!-- <div class=" container h-2000 bg-gradient-to-r from-cyan-500 to-blue-500"> -->
   <div class="relative bg-cover bg-[url(fish13.png)]">
-    <img src="fish13.png" alt="">
+    <img src="src="fish13.png" alt="">
     <!-- bg-cover bg-no-repeat url('/background.jpg') -->
 
     <nav class=" mx-40 bg-[#01126C] shadow-lg opacity-80 sticky">
@@ -103,64 +103,46 @@
     <div class="pb-80" />
 
     <!-- Overlay Box -->
-    <div
-      class="rounded-lg w-[1150px] h-52 absolute -bottom-24 bg-[#CFE1F5] py-10 mx-28"
-    >
-      <!-- <div class="flex h-24">
-                <div class="font-bold text-center w-1/3 border-r border-white">Certified Farm</div>
-                <div class="font-bold text-center w-1/3 border-r border-white">Organic Fish</div>
-                <div class="font-bold text-center w-1/3">High quality</div>
+    <div class="rounded-lg max-w-[1150px] mx-auto bg-[#CFE1F5] py-10 md:py-20 lg:py-24 xl:py-28">
+      <div class="flex flex-col md:flex-row h-auto md:h-24">
+          <div class="text-center w-full md:w-1/3 border-b md:border-b-0 md:border-r border-white flex items-center justify-center">
+              <img src="certificate.png" alt="Certficate" class="h-12 md:h-16 lg:h-20 mr-2" />
+              <div>
+                  <div class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]">
+                      Certified Farm
+                  </div>
+                  <div class="text-sm md:text-base mt-1">
+                      Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
+                  </div>
               </div>
-               -->
-      <div class="flex h-24">
-        <div
-          class="text-center w-1/3 border-r border-white flex items-center justify-center"
-        >
-          <img src="certificate.png" alt="Certficate" class="h-12 mr-2" />
-          <div>
-            <div class="text-2xl font-semibold text-[#01126C]">
-              Certified Farm
-            </div>
-            <div class="text-sm mt-1">
-              Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
-            </div>
           </div>
-        </div>
-        <div
-          class="text-center w-1/3 border-r border-white flex items-center justify-center"
-        >
-          <img src="fish.png" alt="organic fish" class="h-12 mr-2" />
-          <div>
-            <div class="text-2xl font-semibold text-[#01126C]">
-              Organic Fish
-            </div>
-            <div class="text-sm mt-1">
-              Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
-            </div>
+          <div class="text-center w-full md:w-1/3 border-b md:border-b-0 md:border-r border-white flex items-center justify-center">
+              <img src="fish.png" alt="organic fish" class="h-12 md:h-16 lg:h-20 mr-2" />
+              <div>
+                  <div class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]">
+                      Organic Fish
+                  </div>
+                  <div class="text-sm md:text-base mt-1">
+                      Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="text-center w-1/3 flex items-center justify-center">
-          <img src="quality.png" alt="quality" class="h-12 mr-2" />
-          <div class="">
-            <div class="text-2xl font-semibold text-[#01126C]">
-              High quality
-            </div>
-            <div class="text-sm mt-1">
-              Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
-            </div>
+          <div class="text-center w-full md:w-1/3 md:border-r border-white flex items-center justify-center">
+              <img src="quality.png" alt="quality" class="h-12 md:h-16 lg:h-20 mr-2" />
+              <div class="">
+                  <div class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]">
+                      High quality
+                  </div>
+                  <div class="text-sm md:text-base mt-1">
+                      Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </div>
   </div>
-
-  <div />
-
-  <!-- <div class="relative bg-black">Hello
-    <div class="absolute inset-0 z-10 bg-slate-600">Rudy</div>
-    <div class="relative z-20 bg-yellow-200">San</div>
-  </div> -->
+  
   <div class="bg-[#E4EBF5] h-80" />
+  
   <!-- new about us -->
   <div class="flex w-full bg-[#E4EBF5] pb-28">
     <div class="w-1/2 relative">
