@@ -15,7 +15,7 @@
 
 <div>
   <!-- <div class=" container h-2000 bg-gradient-to-r from-cyan-500 to-blue-500"> -->
-  <div class="relative bg-cover bg-[url(fishh12.png)]">
+  <div class="relative bg-cover bg-[url(fish13.png)]">
     <!-- bg-cover bg-no-repeat url('/background.jpg') -->
 
     <nav class=" mx-40 bg-[#01126C] shadow-lg opacity-80 sticky">
