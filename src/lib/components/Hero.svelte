@@ -1,31 +1,98 @@
 <script>
-    var show = false;
+//   import Overlaybox from "/overlaybox.svelte";
+
+
 </script>
+<div class="pt-40 pb-5 text-5xl">
+    <h1 class="font-bold text-white text-center">Aqua Fish farming</h1>
+    <h1 class="font-bold text-white text-center">For the Aqua Fish Lovers</h1>
+  </div>
+  <h6 class="text-white text-center">
+    Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+  </h6>
+  <h6 class="  text-white text-center">
+    labore et dolore magna aliquyam erat, sed diam voluptua.
+  </h6>
 
-<nav class="flex justify-between ">
-    <div class="mt-5 w-1/2">
-        <img src="tensax/logo.jpg" class="w-40 ml-20 inline-block" alt="">
-        <div class="mt-28 ml-20">
-            <h1 class="text-7xl text-orange-400">Build AI & Emerging Technologies</h1>
-            <p class="mt-5 text-2xl">Revolutionizing the AI & Emeging Technology Development process</p>
-            <button class="rounded-md text-white font-semibold hover:bg-orange-600 hover:shadow mt-5 bg-orange-500 px-8 py-4 ">Contact Us</button>
-        </div>
-    </div>
+  <!-- Button  -->
+  <div class="flex justify-center pt-10">
+    <button
+      class=" bg-[#0A7BC9] text-white py-4 text-sm font-semibold px-9 rounded-md hover:text-[#0A7BC9] hover:bg-white"
+    >
+      Shop Now <i class="fa fa-arrow-right" />
+    </button>
+    <i class="fa-regular fa-circle-play text-white px-5 text-5xl" />
+  </div>
 
-    <div class="w-1/2">
-        <div class="flex absolute  space-x-10 mt-10 font-medium ml-10 text-lg">
-            <ul class="flex space-x-10"> 
-                <li class="cursor-pointer hover:underline">Home</li>
-                <li class="cursor-pointer hover:underline">Products</li>
-                <li class="cursor-pointer hover:underline">Industries</li>
-                <li on:click={()=>{show = !show}} class="cursor-pointer hover:underline">More</li>
-                <div class="w-60 h-60 bg-orange-600 rounded-lg shadow-orange-400 shadow-lg absolute top-8 -right-4 {show? "":"hidden"} "></div>
-            </ul>
-            <button class="bg-white rounded-full px-5">Contact us</button>
-        </div >
-        <div class="flex justify-end">
-            <img class="w- " src="tensax/bg.png" alt="">
+  <div class="pb-60" />
+
+  <!-- Overlay Box -->
+  <!-- <div class="bg-[#E4EBF5] hii z-20" name="box">
+  <div
+    class="rounded-xl max-w-[1150px] mx-auto bg-[#CFE1F5] md:py-16 mb-10 w-[1500px] "
+  >
+    <div class="flex flex-col md:flex-row h-auto md:h-24">
+      <div
+        class="text-center w-full md:w-1/3 border-b md:border-b-0 md:border-r border-white flex items-center justify-center"
+      >
+        <img
+          src="certificate.png"
+          alt="Certficate"
+          class="h-12 md:h-16 lg:h-20 mr-2"
+        />
+        <div>
+          <div
+            class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]"
+          >
+            Certified Farm
+          </div>
+          <div class="text-sm md:text-base mt-1">
+            Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
+          </div>
         </div>
+      </div>
+      <div
+        class="text-center w-full md:w-1/3 border-b md:border-b-0 md:border-r border-white flex items-center justify-center"
+      >
+        <img
+          src="fish.png"
+          alt="organic fish"
+          class="h-12 md:h-16 lg:h-20 mr-2"
+        />
+        <div>
+          <div
+            class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]"
+          >
+            Organic Fish
+          </div>
+          <div class="text-sm md:text-base mt-1">
+            Lorem ipsum dolor sit amet, <br />consectetur adipiscing elit.
+          </div>
+        </div>
+      </div>
+      <div
+        class="text-center w-full md:w-1/3 md:border-r border-white flex items-center justify-center"
+      >
+        <img
+          src="quality.png"
+          alt="quality"
+          class="h-12 md:h-16 lg:h-20 mr-2"
+        />
+        <div class="">
+          <div
+            class="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#01126C]"
+          >
+            High quality
+          </div>
+          <div class="text-sm md:text-base mt-1">
+            Lorem ipsum dolor sit amet,<br /> consectetur adipiscing elit.
+          </div>
+        </div>
+      </div>
     </div>
-    
-</nav>
+  </div>
+</div> -->
+  <div class="bg-[#E4EBF5] h-40" />
+   <!-- new about us -->
+ 
+  
